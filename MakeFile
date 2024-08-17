@@ -1,0 +1,67 @@
+venv:
+	python3 -m venv venv
+	# source venv/bin/activate   # On macOS and Linux
+
+source: 
+	source venv/bin/activate
+
+install:
+	pip install --upgrade pip &&\
+	pip install -r requirements.txt
+
+run: install
+	python3 main.py
+
+format:
+	black app.py
+
+lint: format
+	pylint --disable=R,C app.py
+
+remove:
+	rm -rf venv
+
+deactivate:
+	deactivate
+
+git:
+	git status
+	git add . &&\
+	git fetch origin &&\
+	git merge origin/main &&\
+	git commit -m "create dockr file + add to makefile" &&\
+	git push
+# git fetch origin
+# git merge origin/main
+
+DOCKER_IMAGE_NAME = text2sql-app
+DOCKER_CONTAINER_NAME = text2sql-container
+
+.PHONY: docker-build docker-run docker-stop docker-clean docker-test
+
+docker-build:
+	docker build -t $(DOCKER_IMAGE_NAME) .
+
+docker-run:
+	docker run -d -p 5000:5000 --name $(DOCKER_CONTAINER_NAME) $(DOCKER_IMAGE_NAME)
+
+docker-stop:
+	docker stop $(DOCKER_CONTAINER_NAME)
+	docker rm $(DOCKER_CONTAINER_NAME)
+
+docker-clean: docker-stop
+	docker rmi $(DOCKER_IMAGE_NAME)
+
+docker-test:
+	docker run --rm $(DOCKER_IMAGE_NAME) python -m unittest test.py
+
+# Git commands
+git:
+	git status
+	git add . &&\
+	git commit -m "create docker file + add to makefile" &&\
+	git push
+
+# Test command (can be used for both local and Docker environments)
+test:
+	python -m unittest test.py

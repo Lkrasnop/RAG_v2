@@ -1,0 +1,16 @@
+llama2-wrapper
+langchain
+langchain-openai
+langchain_pinecone
+langchain[docarray]
+docarray
+pydantic==1.10.8
+pytube 
+python-dotenv
+tiktoken 
+pinecone-client 
+scikit-learn
+ruff
+pypdf
+langchain-community
+faiss-gpu

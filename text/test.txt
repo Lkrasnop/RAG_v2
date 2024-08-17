@@ -1,0 +1,422 @@
+Technology in Society 78 (2024) 102644
+Available online 20 June 2024
+0160-791X/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).Addressing the notion of trust around ChatGPT in the high-stakes use case 
+of insurance 
+Juliane Ressela,*, Michaele Vollerb, Finbarr Murphya, Martin Mullinsa 
+aKemmy Business School, University of Limerick, Limerick, V94 T9PX, Ireland 
+bInstitute for Insurance Studies, TH Koln, Gustav-Heinemann-Ufer 54, 50968, Cologne, Germany   
+ARTICLE INFO  
+Keywords: 
+ChatGPT 
+Large language models 
+Insurance 
+Governance 
+Trust ABSTRACT  
+The public discourse concerning the level of (dis)trust in ChatGPT and other applications based on large language 
+models (LLMs) is loaded with generic, dread risk terms, while the heterogeneity of relevant theoretical concepts 
+and empirical measurements of trust further impedes in-depth analysis. Thus, a more nuanced understanding of 
+the factors driving the trust judgment call is essential to avoid unwarranted trust. In this commentary paper, we 
+propose that addressing the notion of trust in consumer-facing LLM-based systems across the insurance industry 
+can confer enhanced specificity to this debate. The concept and role of trust are germane to this particular setting 
+due to the highly intangible nature of the product coupled with elevated levels of risk, complexity, and infor-
+mation asymmetry. Moreover, widespread use of LLMs in this sector is to be expected, given the vast array of text 
+documents, particularly general policy conditions or claims protocols. Insurance as a practice is highly relevant 
+to the welfare of citizens and has numerous spillover effects on wider public policy areas. We therefore argue that 
+a domain-specific approach to good AI governance is essential to avoid negative externalities around financial 
+inclusion. Indeed, as a constitutive element of trust, vulnerability is particularly challenging within this high- 
+stakes set of transactions, with the adoption of LLMs adding to the socio-ethical risks. In light of this, our 
+commentary provides a valuable baseline to support regulators and policymakers in unravelling the profound 
+socioeconomic consequences that may arise from adopting consumer-facing LLMs in insurance.   
+1.A domain-specific approach confers greater specificity to the 
+current dread risk discourse concerning ChatGPT and other large 
+language models (LLMs) 
+The real-world impacts of deploying ChatGPT and other large lan-
+guage model (LLM)-based applications catapulted AI ethics and gover -
+nance into mainstream media. In the past year, dramatic figures that 
+shifted the public narrative to focus on the harms of deploying LLMs 
+were cited in news headlines, including the 700,000 litres of freshwater 
+consumed during the training of the GPT-3 model [1], the hourly wage 
+of USD 2 for Kenyan data annotators creating hate speech datasets [2], 
+and the billion-dollar copyright infringement lawsuit from the New York 
+Times against OpenAI [3]. Turmoil over the proposed moratorium for 
+LLMs [4] and the Sam Altman debacle [5] resonated with the latent 
+safety concerns in the commercial race for AI leadership. A recent 
+empirical study highlighted the contentious public sentiment towards 
+ChatGPT and showed that the negative opinions regarding its use were based on ethical implications, including bias, manipulation, job 
+displacement, and concerns about data privacy and security [6]. While 
+the reflective enquiry in this area until now has largely been enmeshed 
+in the normative target of making AI trustworthy, there is growing 
+resistance to the overly simplistic rhetoric around trust used by gov-
+ernment bodies [7]. The dread risk discourse evident in this space is 
+especially problematic since it obfuscates consideration of the context in 
+which the LLM is used and the precise task it is entrusted with. In fact, 
+and as with language itself, the adoption of LLMs is constrained by 
+domain-specific rules and structures (syntaxes), meanings (semantics), 
+and situation-specific practices (pragmatics). We posit that embedded -
+ness and situational dynamics are essential in the efforts to ensure the 
+safe deployment of AI systems. 
+Examining LLM deployment in a specific domain with profound so-
+cioeconomic consequences is imperative for an in-depth discussion 
+about trust and appropriate safeguards. In terms of high-risk scenarios, 
+numerous publications have addressed areas such as LLMs in medicine 
+*Corresponding author. 
+E-mail addresses: juliane.ressel@ul.ie (J. Ressel), michaele.voeller@th-koeln.de (M. Voller), finbarr.murphy@ul.ie (F. Murphy), martin.mullins@ul.ie 
+(M. Mullins).  
+Contents lists available at ScienceDirect 
+Technology in Society 
+u{�~zkw! s{yo| kro>! ÐÐÐ1ow �o�to~1m{y2w {mk�o2�oms�{ m!
+https://doi.org/10.1016/j.techsoc.2024.102644 
+Received 29 June 2023; Received in revised form 31 May 2024; Accepted 19 June 2024   Technology in Society 78 (2024) 102644
+2and criminal justice systems. Insurance is another prime example of a 
+consequential decision-making environment. As a practice, it is highly 
+relevant to the welfare of citizens and has numerous spillover effects on 
+wider public policy areas. As a sector, it already exercises considerable 
+disciplinary power over populations: a power that can only increase 
+with the widespread application of AI systems. The granularity of data 
+reinforces the social control function of insurance by adjusting power 
+relations between insurers and consumers. Accordingly, as a high-stakes 
+use case, policymakers and researchers are presented with both a spe-
+cific domain and a set of profound socioeconomic consequences that 
+may arise from adopting LLMs. 
+Insurance regulators are keenly aware of the risks posed by AI 
+deployment, as evidenced by the establishment of the European Insur -
+ance and Occupational Pensions Authority (EIOPA) Consultative Expert 
+Group on Digital Ethics in Insurance in 2021 [8]. The expert group’s 
+deliberations centred on financial exclusion and unfair treatment of 
+(vulnerable) consumers, including algorithmic bias, non-risk pricing, 
+data misuse, and privacy concerns. For instance, US health insurer Cigna 
+faces two class-action lawsuits for allegedly auto-denying medical 
+expense claims in batches using its procedure-to-diagnosis (PXDX) sys-
+tem without reviewing patient files [9]. Cigna’s medical directors 
+reportedly denied over 300,000 claims in two months, taking an average 
+of only 1.2 seconds to review each case [10]. The concerns regarding the 
+PXDX system are among a growing number of incidents involving the 
+ethical misuse of AI [9]. These real-world incidents underline the need 
+to translate the high-level trustworthiness rhetoric into domain-specific 
+practices, from which the following question arises: How is trust defined 
+in the context of AI and LLMs and the insurance industry, and should 
+regulators encourage such trust? 
+The insurance industry provides an excellent use case to address the 
+notions of trust and trustworthiness in LLM-based systems in high-stakes 
+decision scenarios. The concept of trust is germane to the insurance 
+setting due to the product’s highly intangible nature coupled with 
+elevated levels of risk, complexity, and information asymmetry. Despite 
+its well-established significance, little attention has been paid to the 
+drivers of trust in insurance transactions [11]. Although the current state 
+of trust research is still fluid, converging findings demonstrated two 
+essential components for interpersonal trust relationships: a willingness 
+to be vulnerable and a positive expectation concerning the other party’s 
+intentions and behaviour [12,13]. This consensus draws heavily on the 
+definition by Mayer and colleagues [14] and the affiliated scale they 
+developed [15]: a conceptual base that is gaining traction in the 
+human-AI interaction field [16,17]. Vulnerability and risk are consti -
+tutive elements of trust, and their importance is significantly elevated in 
+the domain of insurance. Task characteristics, interdependency, power 
+(im)balances, and other contextual factors inevitably influence the 
+perceived level of risk in the trust interaction with LLM-based systems. 
+The insurance sector plays a dual role in current discussions about 
+the safe deployment of LLMs. As a user, insurance can harness LLMs to 
+make unstructured data available and increase efficiency while recent 
+advances in large multimodal models (LMMs) can result in another leap 
+in possible use cases. Narrowing our focus to consumer-facing LLM- 
+based applications in front-end processes, such as sales, customer ser-
+vice, and underwriting, allows us to adopt a more nuanced perspective. 
+Additionally, insurance is strategically positioned to provide risk man-
+agement support and transfer mechanisms to LLM developers. The sec-
+tor’s substantial risk management expertise can thus help shape the 
+agenda and break the cycle of existential risk and emergency. Thus, in 
+this commentary paper, we propose to add greater specificity to the 
+current discourse around (dis)trust in ChatGPT and other LLM-based 
+systems by moving beyond a high-level principle-based approach to a 
+domain-specific view. 2.Insurance-specific considerations can ground the notion of 
+trust in human-LLM interactions 
+Prior research stresses the importance of promoting appropriate trust 
+levels in system capabilities to mitigate the misuse and disuse of auto-
+mation [18]. We extend the interpersonal trust definition in Ref. [14] to 
+a potential human-LLM trust relationship by exploring four key ele-
+ments: (1) relationality, (2) vulnerability, (3) willingness, and (4) pos-
+itive expectation. 
+2.1. Relationality 
+Trust can manifest within a relationship between two parties, such as 
+an insurance consumer and an LLM-based application, through a 
+particular action relevant to the trustor (i.e. the consumer trusts the 
+LLM-based application to do a certain task). This interdependence in-
+troduces a fundamental element of risk and uncertainty and raises 
+concerns about the impact of low levels of financial literacy – or digital 
+skills in general – on interactions with insurance-related LLM-based 
+systems. We propose that trust can generally extend to LLM-based sys-
+tems because the trustors are willing to make themselves vulnerable by 
+relying on the LLM’s output under uncertainty, irrespective of its 
+inherent capacity for volition or moral agency [18,19]. The fundamental 
+elements of relationality and uncertainty remain the pivotal contextual 
+conditions for trust development in LLMs. 
+2.2. Vulnerability 
+The trustors can make themselves vulnerable to an LLM system. 
+Vulnerability is central to trust, denoting potential adversity or harm. As 
+a consequence, trust becomes imperative in scenarios where outcomes 
+are unpredictable or beyond the complete control of the trustor, 
+particularly when the trustor does not (or cannot) exercise any moni -
+toring or controlling mechanisms. Hence, saying ‘I trust you’, means ‘I 
+am willing to be vulnerable and to take a risk’ – vulnerability and risk 
+drive trust [20]. 
+In insurance, the duty of utmost good faith requires the contracting 
+parties to be honest and accurate and to disclose all material facts. A 
+prominent risk of LLMs is that they are prone to generating plausible- 
+sounding but factually incorrect information, especially when faced 
+with unfamiliar customer queries. This hallucination risk is partly due to 
+‘world knowledge gaps’ [21] resulting from underreported information 
+in the training data set or prompt engineering techniques. In this 
+context, it is particularly problematic that – despite inherent inaccura -
+cies – text produced in a convincingly high register may retain sub-
+stantial rhetorical power. Significantly, there is no fixed relationship 
+between the syntax quality and text accuracy that we are generally 
+accustomed to and this is a grey area that raises significant concerns 
+about potential deception. In Ref. [22], Rice and colleagues provide 
+guidance for researchers on fact-checking the output to ensure the ac-
+curacy of information provided by ChatGPT. As a heavily regulated 
+financial service, the sector must be alert to the risks of mis-selling in-
+surance products. 
+Moreover, consumers may be inappropriately nudged to adopt 
+particular behaviours or make purchases based on how an LLM response 
+is phrased and which information is presented first. To process infor-
+mation and make decisions more quickly, consumers tend to consider 
+only the most immediate information and have difficulty deviating from 
+an initial value. These well-documented cognitive biases, such as ‘What 
+You See Is All There Is’ (WYSIATI) and ‘anchoring’ [23] hamper 
+adequate risk assessment and insurance purchase decisions. Since the 
+output of an LLM varies based on how the input prompt is phrased, the 
+model may work less efficiently for users deploying dialect, slang, or 
+non-native terms. Such vulnerability is amplified by the use of complex 
+insurance jargon which necessitates the use of a glossary to enable a 
+layperson to fully comprehend the meaning of technical terms. J. Ressel et al.                                                                                                                                                                                                                                   Technology in Society 78 (2024) 102644
+3Insurance data scientists can thus customise pre-trained LLMs with 
+domain-specific expertise. Combining Retrieval-Augmented Generation 
+(RAG) and finetuning can ground query responses in information from 
+insurer databases, similar resolved queries, specific terminology, and 
+tone. Empathy is especially valued during the First Notice of Loss 
+(FNOL) process which is the ‘moment of truth’ when it is revealed 
+whether the insurer will keep their promise to provide coverage. How-
+ever, the adaptation techniques greatly depend on data availability and 
+quality, which poses a serious challenge to the insurance sector which is 
+hampered by the legacy system dilemma. Moreover, real-world in-
+cidents of technical errors in other domains (e.g. the erroneously 
+retrieved airfare information by Air Canada’s LLM-based chatbot [9]) 
+and malicious security attacks via LLM jailbreaking (e.g. the swearing 
+DPD customer support LLM-based chatbot [9]) illustrate limitations. The 
+provision of incorrect or harmful advice in insurance customer acqui -
+sition and retention is particularly alarming as it can lead to protection 
+gaps or lock-in effects on consumers, thereby reducing their propensity 
+to shop around at renewal. 
+2.3. Willingness 
+Trust, in essence, does not encompass risk but rather embodies the 
+consumer’s readiness to assume risk in a relationship with a specific 
+LLM-based application. The consumer adopts a trusting attitude in 
+anticipation of a risky situation, yet this attitude precedes any actual 
+action [24]. Comparable to an intention to act, trust is rooted in 
+particular beliefs and determines future behavioural responses. 
+Consumers may erroneously attribute human communicative intent 
+and other characteristics, such as genuine concern, altruism, critical 
+thinking, or a sense of justice, to LLMs. As such, they may overestimate 
+the text quality and forego further reflection or exercise of control 
+mechanisms, such as cross-checking with different prompts or other 
+sources. In other words, we trained ‘machines that can mindlessly 
+generate text, [b]ut we haven’t learned how to stop imagining the mind 
+behind it’ [25]. This could also lead to the over-sharing of personal in-
+formation, which, in the context of insurance, could result in a sharp 
+hike in premiums or the insurer declining to underwrite coverage. Pri-
+vacy infringement refers to the potential risk of leaking highly sensitive 
+information, and concerns regarding consumer autonomy for under -
+writing and pricing purposes and technical remedies, such as differential 
+privacy, fall short of addressing this risk. Autonomy can range from 
+choosing a preferred communication platform and informed consent to 
+more fundamental surveillance issues, potentially affecting access to 
+essential financial services vital for societal participation and welfare. 
+2.4. Positive expectation 
+The willingness to trust is based on a positive and confident expec -
+tation that the other party will keep their commitment. This anticipation 
+is exemplified in one of the measure items stating that the trustee will 
+‘keep [the trustor’s] interests in mind when making decisions’ [15]. 
+Thus, trust, as a cognitive and deliberate choice, is partly anchored in 
+specific beliefs that the LLM-based application is trustworthy. While 
+insurance is often disparaged as one of the least trusted industries 
+overall, closer scrutiny of specific relationships, such as broker-client 
+engagements, reveals high levels of reciprocal trustworthiness. The 
+same applies to ambivalent societal perceptions of AI systems. For 
+instance, while a recent global study found that most people expressed 
+fear and concern, and are generally wary of AI systems, trust levels are 
+higher in specific use cases with a direct benefit [26]. 
+European insurance legislation requires insurance professionals to 
+act in the consumer’s best interest (e.g. Insurance Distribution Directive 
+(IDD)). LLMs trained on (non-representative or not-fit-for-purpose) 
+datasets containing protected attributes or closely related proxy vari-
+ables can create or magnify unfair discrimination and bias, thereby 
+disadvantaging specific groups. LLMs can thus mirror the inherent ambiguities in the judgment of insurance professionals, such as false 
+accusations of fraud. The operation of LLMs is also likely to create links 
+between certain social phenomena and specific groups of people. In a 
+domain where, by definition, perceived risk has an impact on prices, this 
+could have profound consequences. In the short to medium term, 
+bespoke application programming interfaces (APIs) will likely acquire 
+LLMs’ access to insurance databases which will arguably increase the 
+potential for negative externalities, such as non-risk pricing and arbi-
+trary underwriting decisions. 
+These initial considerations serve as a starting point to ground a 
+sector-specific understanding of trust in LLMs. 
+3.Preliminary conclusions and future research directions 
+The storm of controversy provoked by the public release of ChatGPT 
+has alerted policymakers to the issue of effectively regulating generative 
+AI systems in the AI Act. This legislation, proposed by the European 
+Commission (EC) in 2021 and approved by the European Council on 21 
+May 2024, imposes extensive risk management and transparency stip-
+ulations on deployers of high-risk AI systems, and it is anticipated that 
+some insurance-specific AI systems will be designated as being high-risk. 
+In the interim prior to statute enactment, the EC has published voluntary 
+guidance in the form of the International Code of Conduct for Organi -
+zations Developing Advanced AI Systems [27]. Given its core compe -
+tency in risk management, the insurance sector must play a key role in 
+this development, and we propose that this area presents a unique op-
+portunity for initiating a comprehensive and well-founded discussion on 
+AI use in general, and LLM use in particular. 
+Context is essential for the development of appropriate governance 
+regimes and we maintain that initiatives involved in deriving universal 
+rules or codes of conduct for LLM use must, at the very minimum, be 
+informed by specific use cases. While it is important to consider the 
+broader societal impacts of ChatGPT beyond a single domain [28], 
+situational dynamics and context critically influence public perception 
+[6], trust levels, and the perceived sufficiency of current regulations and 
+safeguards [26]. Working through the issue in high-risk domains such as 
+insurance can offer some direction for policymakers seeking to protect 
+the interests of European citizens. The use of LLMs by insurance com-
+panies poses several risks for consumers, including financial exclusion, 
+mis-selling, and information asymmetry. Bespoke LLMs with direct ac-
+cess to insurance databases will only increase the potential for such 
+negative externalities. Moreover, axiomatic to insurance business prac-
+tice is a future promise to meet all contractual commitments. The 
+addition of this temporal dimension to the current debate is significant 
+as it further increases the vulnerability tariff, thereby redoubling the 
+potential cost of trusting the LLM-generated text. Both the extended 
+temporal component and the trust not to question (LLM safeguards) in 
+insurance underline the need for vigilance and, potentially, the exercise 
+of the precautionary principle. 
+Insurance business processes harnessing the power of AI systems may 
+signal a paradigm shift in insurance. The origins of insurance practice 
+lay in sharing risk and possessing partial information on insured citizens. 
+To take John Rawls as a starting point and extend the metaphor, a net 
+curtain has obscured future elements [29]. Hence, ‘Fortuna’, or luck, 
+was an accepted aspect of the early insurance practitioner landscape 
+[30]. However, something approaching omniscience concerning con-
+sumer data is possible in a world of the Internet of Things, wearables, 
+rapid advances in gathering, sequencing, and storing genetic informa -
+tion, social media data, and novel AI-based techniques. This is especially 
+relevant for insurance products with elevated perceived risk and 
+complexity levels, such as life and health insurance. While the nature of 
+debates on the social impact of LLMs is somewhat amorphous and 
+lacking in precision, we propose that examining the impact of this 
+technology in insurance, especially in life and health lines, offers real 
+traction to reinterpret the notion of trust(worthiness) in AI systems. J. Ressel et al.                                                                                                                                                                                                                                   Technology in Society 78 (2024) 102644
+4CRediT authorship contribution statement 
+Juliane Ressel: Writing – review & editing, Writing – original draft, 
+Conceptualization. Michaele Voller: Writing – review & editing, Su-
+pervision, Conceptualization. Finbarr Murphy: Writing – review & 
+editing, Supervision. Martin Mullins: Writing – review & editing, 
+Writing – original draft, Conceptualization. 
+Declaration of competing interest 
+The authors declare no competing interests. 
+Data availability 
+No data was used for the research described in the article. 
+References 
+[1]P. Li, J. Yang, M.A. Islam, S. Ren, Making AI less “thirsty ”: uncovering and 
+addressing the secret water footprint of AI models, ArXiv (2023), https://doi.org/ 
+10.48550/arXiv.2304.03271 abs/2304.03271. 
+[2]B. Perrigo, Exclusive: OpenAI Used Kenyan Workers on Less than $2 Per Hour to 
+Make ChatGPT Less Toxic, TIME, 2023. URL: https://time.com/6247678/opena 
+i-chatgpt-kenya-workers/ . (Accessed 19 March 2024). 
+[3]M.M. Grynbaum, R. Mac, The Times sues OpenAI and microsoft over A.I. Use of 
+copyrighted work, N. Y. Times (27 December 2023). URL: https://www.nytimes.co 
+m/2023/12/27/business/media/new-york-times-open-ai-microsoft-lawsuit.html . 
+(Accessed 19 March 2024). 
+[4]Future of Life Institute, Policymaking in the Pause. What can policymakers do now 
+to combat risks from advanced AI systems?, URL: https://futureoflife.org/docume 
+nt/policymaking-in-the-pause/ , 2023. (Accessed 19 March 2024). 
+[5]N. Jones, What the OpenAI drama means for AI progress – and safety, Nature 623 
+(23 November 2023) 898–899, https://doi.org/10.1038/d41586-023-03700-4 . 
+[6]Y. Xing, J.Z. Zhang, G. Teng, X. Zhou, Voices in the digital storm: unraveling online 
+polarization with ChatGPT, Technol. Soc. 77 (2024) 102534, https://doi.org/ 
+10.1016/j.techsoc.2024.102534 . 
+[7]J. Laux, S. Wachter, B. Mittelstadt, Trustworthy artificial intelligence and the 
+European Union AI act: on the conflation of trustworthiness and acceptability of 
+risk, Regulation & Governance 18 (2023) 3–32, https://doi.org/10.1111/ 
+rego.12512 . 
+[8]European Insurance and Occupational Pensions Authority (EIOPA), Artificial 
+Intelligence Governance Principles, towards Ethical and Trustworthy Artificial 
+Intelligence in the European Insurance Sector – A Report from EIOPA ’s 
+Consultative Expert Group on Digital Ethics in Insurance, Publications Office of the 
+European Union, 2021. https://data.europa.eu/doi/10.2854/49874 . 
+[9]AI, Algorithmic, and Automation Incidents and Controversies (AIAAIC) Repository 
+(2024). URL: https://www.aiaaic.org/aiaaic-repository . (Accessed 19 March 
+2024). 
+[10] P. Rucker, M. Miller, D. Armstrong, How Cigna saves millions by having its doctors 
+reject claims without reading them, The Capitol Forum and ProPublica (25 March 
+2023). URL: https://www.propublica.org/article/cigna-pxdx-medical-health-in 
+surance-rejection-claims . (Accessed 19 March 2024). 
+[11] C. Courbage, C. Nicolas, Trust in insurance: the importance of experiences, J. Risk 
+Insur. 88 (2020) 263–291, https://doi.org/10.1111/jori.12324 . 
+[12] M.D. Baer, J.A. Colquitt, Why do people trust? Moving toward a more 
+comprehensive consideration of the antecedents of trust, in: R.H. Searle, A. M. Nienaber, S.B. Sitkin (Eds.), Routledge Companion to Trust, Routledge, London 
+and New York, 2018, pp. 163–182. 
+[13] D.M. Rousseau, S.B. Sitkin, R.S. Burt, C. Camerer, Not so different after all: a cross- 
+discipline view of trust, Acad. Manag. Rev. 23 (3) (1998) 393–404, https://doi. 
+org/10.5465/AMR.1998.926617 . 
+[14] R.C. Mayer, J.H. Davis, F.D. Schoorman, An integrative model of organizational 
+trust, Acad. Manag. Rev. 20 (3) (1995) 709–734, https://doi.org/10.2307/258792 . 
+[15] R.C. Mayer, J.H. Davis, The effect of the performance appraisal system on trust for 
+management: a field quasi-experiment, J. Appl. Psychol. 84 (1) (1999) 123–136, 
+https://doi.org/10.1037/0021-9010.84.1.123 . 
+[16] T.A. Bach, A. Khan, H. Hallock, G. Beltr ~ao, S. Sousa, A systematic literature review 
+of user trust in AI-enabled systems: an HCI perspective, Int. J. Hum. Comput. 
+Interact. 40 (5) (2022) 1251 –1266, https://doi.org/10.1080/ 
+10447318.2022.2138826 . 
+[17] O. Vereschak, G. Bailly, B. Caramiaux, How to evaluate trust in AI-assisted decision 
+making? A survey of empirical methodologies, Proc. ACM Hum.-Comput. Interact. 
+5 (CSCW2) (2021), https://doi.org/10.1145/3476068 . Art. 327. 
+[18] J.D. Lee, K.A. See, Trust in automation: designing for appropriate reliance, Hum. 
+Factors 46 (1) (2004) 50–80, https://doi.org/10.1518/hfes.46.1.50_30392 . 
+[19] D.H. McKnight, M. Carter, J.B. Thatcher, P.F. Clay, Trust in a specific technology: 
+an investigation of its components and measures, ACM Trans. Manage. Inf. Syst. 2 
+(2011), https://doi.org/10.1145/1985347.1985353 . Article 12. 
+[20] J. Davis, Building Trust. TEDx Talk. TEDxUSU, Utah State University), 2014. URL: 
+https://youtu.be/s9FBK4eprmA?si uzoLDqNXoSDqk2Vz . (Accessed 19 March 
+2024). 
+[21] K. Mahowald, A.A. Ivanova, I.A. Blank, N.G. Kanwisher, J.B. Tenenbaum, 
+E. Fedorenko, Dissociating language and thought in large language models: a 
+cognitive perspective, ArXiv (2023), https://doi.org/10.48550/arXiv.2301.06627 
+abs/2301.06627. 
+[22] S. Rice, S.R. Crouse, S.R. Winter, C. Rice, The advantages and limitations of using 
+ChatGPT to enhance technological research, Technol. Soc. 76 (2024) 102426, 
+https://doi.org/10.1016/j.techsoc.2023.102426 . 
+[23] D. Kahneman, Thinking, Fast and Slow, Farrar, Straus and Giroux, New York, 2011 . 
+[24] F.D. Schoorman, M.M. Wood, C. Breuer, Would trust by any other name smell as 
+sweet? Reflections on the meanings and uses of trust across disciplines and context, 
+in: B.H. Bornstein, A.J. Tomkins (Eds.), Motivating Cooperation and Compliance 
+with Authority: the Role of Institutional Trust, Nebraska Symposium on 
+Motivation, Springer International Publishing, Cham, 2015, pp. 13–35, https://doi. 
+org/10.1007/978-3-319-16151-8_2 . 
+[25] E. Bender, E. Weil, You Are Not a Parrot. And a chatbot is not a human. And a 
+linguist named Emily M. Bender is very worried what will happen when we forget 
+this, Intelligencer, New York Magazine (2023). URL: https://nymag.com/intelligen 
+cer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html . (Accessed 19 
+March 2024). 
+[26] N. Gillespie, S. Lockey, C. Curtis, J. Pool, A. Akbari, Trust in Artificial Intelligence: 
+A Global Study, The University of Queensland; KPMG Australia, Brisbane, 
+Australia; New York, United States, 2023, https://doi.org/10.14264/00d3c94 . 
+[27] European Commission, Hiroshima process international code of conduct for 
+advanced AI systems, URL: https://digital-strategy.ec.europa.eu/en/library/hirosh 
+ima-process-international-code-conduct-advanced-ai-systems , 30 October 2023. 
+(Accessed 19 March 2024). 
+[28] X. Wei, X. Chu, J. Geng, Y. Wang, P. Wang, H. Wang, C. Wang, L. Lei, Societal 
+impacts of chatbot and mitigation strategies for negative impacts: a large-scale 
+qualitative survey of ChatGPT users, Technol. Soc. 77 (2024) 102566, https://doi. 
+org/10.1016/j.techsoc.2024.102566 . 
+[29] J. Rawls, A Theory of Justice, Harvard Univ. Press, 1971. URL: https://www.hup. 
+harvard.edu/books/9780674000780 . 
+[30] G.W. Clark, Betting on Lives: the Culture of Life Insurance in England, 1695-1775, 
+Manchester Univ. Press, 1999 . J. Ressel et al.                                                                                                                                                                                                                                   
