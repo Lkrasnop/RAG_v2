@@ -1,0 +1,635 @@
+Insurance Practice
+Insurance 2030—  
+The impact of AI on the 
+future of insurance
+The industry is on the verge of a seismic, tech-driven shift. A focus on 
+four areas can position carriers to embrace this change.
+March 2021
+© Imaginima/Getty Imagesby Ramnath Balasubramanian, Ari Libarikian, and Doug McElhaney
+Welcome to the future of insurance,  as seen 
+through the eyes of Scott, a customer in the year 
+2030. His digital personal assistant orders him a 
+vehicle with self-driving capabilities for a meeting 
+across town. Upon hopping into the arriving car, 
+Scott decides he wants to drive today and moves 
+the car into “active” mode. Scott’s personal 
+assistant maps out a potential route and shares 
+it with his mobility insurer, which immediately 
+responds with an alternate route that has a much 
+lower likelihood of accidents and auto damage as 
+well as the calculated adjustment to his monthly 
+premium. Scott’s assistant notifies him that his 
+mobility insurance premium will increase by 4 to 
+8 percent based on the route he selects and the 
+volume and distribution of other cars on the road. 
+It also alerts him that his life insurance policy, 
+which is now priced on a “pay-as-you-live” basis, 
+will increase by 2 percent for this quarter. The 
+additional amounts are automatically debited from 
+his bank account.
+When Scott pulls into his destination’s parking 
+lot, his car bumps into one of several parking 
+signs. As soon as the car stops moving, its internal 
+diagnostics determine the extent of the damage. 
+His personal assistant instructs him to take three 
+pictures of the front right bumper area and two of 
+the surroundings. By the time Scott gets back to 
+the driver’s seat, the screen on the dash informs 
+him of the damage, confirms the claim has been 
+approved, and reports that a mobile response drone 
+has been dispatched to the lot for inspection. If the 
+vehicle is drivable, it may be directed to the nearest 
+in-network garage for repair after a replacement 
+vehicle arrives.
+While this scenario may seem beyond the horizon, 
+such integrated user stories will emerge across 
+all lines of insurance with increasing frequency 
+over the next decade. In fact, all the technologies 
+required above already exist, and many are available 
+to consumers. With the new wave of deep learning 
+techniques, such as convolutional neural networks,1 artificial intelligence (AI) has the potential to live 
+up to its promise of mimicking the perception, 
+reasoning, learning, and problem solving of the 
+human mind (Exhibit 1). In this evolution, insurance 
+will shift from its current state of “detect and repair” 
+to “predict and prevent,” transforming every aspect 
+of the industry in the process. The pace of change 
+will also accelerate as brokers, consumers, financial 
+intermediaries, insurers, and suppliers become 
+more adept at using advanced technologies to 
+enhance decision making and productivity, lower 
+costs, and optimize the customer experience.
+As AI becomes more deeply integrated in the 
+industry, carriers must position themselves to 
+respond to the changing business landscape. 
+Insurance executives must understand the factors 
+that will contribute to this change and how AI will 
+reshape claims, distribution, and underwriting 
+and pricing. With this understanding, they can 
+start to build the skills and talent, embrace the 
+emerging technologies, and create the culture and 
+perspective needed to be successful players in the 
+insurance industry of the future.
+Four AI-related trends  
+shaping insurance
+AI’s underlying technologies are already being 
+deployed in our businesses, homes, and vehicles, 
+as well as on our person. The disruption from 
+COVID-19 changed the timelines for the adoption 
+of AI by significantly accelerating digitization for 
+insurers. Virtually overnight, organizations had 
+to adjust to accommodate remote workforces, 
+expand their digital capabilities to support 
+distribution, and upgrade their online channels. 
+While most organizations likely didn’t invest heavily 
+in AI during the pandemic, the increased emphasis 
+on digital technologies and a greater willingness to 
+embrace change will put them in a better position 
+to incorporate AI into their operations.
+1 Convolutional neural networks contain millions of simulated “neurons” structured in layers.
+2
+Insurance 2030—The impact of AI on the future of insurance
+2 World Economic Forum, 2015.  Four core technology trends, tightly coupled with 
+(and sometimes enabled by) AI, will reshape the 
+insurance industry over the next decade.
+Explosion of data from connected devices 
+In industrial settings, equipment with sensors have 
+been omnipresent for some time, but the coming 
+years will see a huge increase in the number of 
+connected consumer devices. The penetration 
+of existing devices (such as cars, fitness trackers, 
+home assistants, smartphones, and smart watches) 
+will continue to increase rapidly, joined by new, 
+growing categories such as clothing, eyewear, home 
+appliances, medical devices, and shoes. Experts 
+estimate there will be up to one trillion connected 
+devices by 2025.2 The resulting avalanche of new 
+data created by these devices will allow carriers 
+to understand their clients more deeply, resulting 
+in new product categories, more personalized 
+pricing, and increasingly real-time service delivery. For example, a wearable that is connected to an 
+actuarial database could calculate a consumer’s 
+personal risk score based on daily activities as well 
+as the probability and severity of potential events.
+Increased prevalence of physical robotics 
+The field of robotics has seen many exciting 
+achievements recently, and this innovation will 
+continue to change how humans interact with 
+the world around them. Additive manufacturing, 
+also known as 3-D printing, will radically reshape 
+manufacturing and the commercial insurance 
+products of the future. By 2025, 3-D-printed 
+buildings will be common, and carriers will 
+need to assess how this development changes 
+risk assessments. In addition, programmable, 
+autonomous drones; autonomous farming 
+equipment; and enhanced surgical robots will all be 
+commercially viable in the next decade. By 2030, 
+a much larger proportion of standard vehicles will Exhibit 1McK Insurance
+AI Insurance
+Exhibit 1 of 2
+Arti/f_icial intelligence can deliver on industry expectations through machine learning and 
+deep learning.
+Source: Nvidia; Rockwell Anyoha, "The history of artificial intelligence," Science in the News, August 28, 2017, sitn.hms.harvard.edu1950s 1960sArti/f_icial intelligence
+The science and engineering of making 
+intelligent machinesMachine learning
+A major approach to realizing arti/f_icial 
+intelligenceDeep learning
+A branch of machine learning
+1970s 1980s 1990s 2000s 2010s
+Arti/f_icial intelligence (AI)
+Intelligence exhibited by machines, whereby 
+machines mimic cognitive functions 
+associated with human minds; cognitive 
+functions include all aspects of learning, 
+perceiving, problem solving, and reasoning.Machine learning (ML)
+Major approach to realizing AI by learning 
+from, and making data-driven predictions 
+based on, data and learned experiences. ML 
+comprises several categories, including 
+reinforcement learning, supervised learning, 
+and unsupervised learning.Deep learning (DL)
+Branch of ML in which algorithms attempt 
+to model high-level abstractions in data. DL 
+connects arti/f_icial, software-based 
+calculators that approximate the function of 
+brain neurons. Neural networks, formed 
+by these calculators, receive, analyze, and 
+determine inputs and are informed if 
+determination is correct.
+3
+Insurance 2030—The impact of AI on the future of insurance
+have autonomous features, such as self-driving 
+capabilities. Carriers will need to understand how 
+the increasing presence of robotics in everyday life 
+and across industries will shift risk pools, change 
+customer expectations, and enable new products 
+and channels.
+Open-source and data ecosystems 
+As data becomes ubiquitous, open-source 
+protocols will emerge to ensure data can be 
+shared and used across industries. Various public 
+and private entities will come together to create 
+ecosystems in order to share data for multiple 
+use cases under a common regulatory and 
+cybersecurity framework. For example, wearable 
+data could be ported directly to insurance carriers, 
+and connected-home and auto data could be made 
+available through Amazon, Apple, Google, and a 
+variety of consumer device manufacturers.
+Advances in cognitive technologies 
+Convolutional neural networks and other deep 
+learning technologies currently used primarily for 
+image, voice, and unstructured text processing 
+will evolve to be applied in a wide variety of 
+applications. These cognitive technologies, which 
+are loosely based on the human brain’s ability to 
+learn through decomposition and inference, will 
+become the standard approach for processing the 
+incredibly large and complex data streams that 
+will be generated by “active” insurance products 
+tied to an individual’s behavior and activities. 
+With the increased commercialization of these 
+types of technologies, carriers will have access to 
+models that are constantly learning and adapting 
+to the world around them—enabling new product 
+categories and engagement techniques while 
+responding to shifts in underlying risks or behaviors 
+in real time.The state of insurance in 2030
+AI and its related technologies will have a seismic 
+impact on all aspects of the insurance industry, 
+from distribution to underwriting and pricing to 
+claims. Advanced technologies and data are already 
+affecting distribution and underwriting, with policies 
+being priced, purchased, and bound in near real 
+time. An in-depth examination at what insurance 
+may look like in 2030 highlights dramatic changes 
+across the insurance value chain. 
+Distribution
+The experience of purchasing insurance is faster, 
+with less active involvement on the part of the 
+insurer and the customer.3 Enough information is 
+known about individual behavior, with AI algorithms 
+creating risk profiles, so that cycle times for 
+completing the purchase of an auto, commercial, 
+or life policy will be reduced to minutes or even 
+seconds. Auto and home carriers have enabled 
+instant quotes for some time but will continue to 
+refine their ability to issue policies immediately 
+to a wider range of customers as telematics and 
+in-home Internet of Things (IoT) devices proliferate 
+and pricing algorithms mature. Many life carriers 
+are experimenting with simplified issue products, 
+but most are restricted to only the healthiest 
+applicants and are priced higher than a comparable 
+fully underwritten product. As AI permeates life 
+underwriting and carriers are able to identify risk  
+in a much more granular and sophisticated way,  
+we will see a new wave of mass-market instant  
+issue products.
+Smart contracts enabled by blockchain 
+instantaneously authorize payments from a 
+customer’s financial account. Meanwhile, contract 
+processing and payment verification are eliminated 
+or streamlined, reducing customer acquisition costs Experts estimate there will be up to one 
+trillion connected devices by 2025.
+3  Simon Kaesler, Matt Leo, Shannon Varney, and Kaitlyn Young, “How insurance can prepare for the next distribution model,” June 12, 2020, 
+McKinsey.com.
+4
+Insurance 2030—The impact of AI on the future of insurance
+4  Some insurtech companies are already designing  these types of products; Slice, for example, provides variable commercial insurance 
+specifically tailored for home sharing.
+5  Ramnath Balasubramanian, Ari Chester, and Nick Milinkovich, “Rewriting the rules: Digital and AI-powered underwriting in life insurance,”  
+July 31, 2020, McKinsey.com.for insurers. The purchase of commercial insurance 
+is similarly expedited as the combination of drones, 
+IoT, and other available data provides sufficient 
+information for AI-based cognitive models to 
+proactively generate a bindable quote.
+Highly dynamic, usage-based insurance (UBI) 
+products proliferate and are tailored to the 
+behavior of individual consumers. Insurance 
+transitions from a “purchase and annual 
+renewal” model to a continuous cycle, as product 
+offerings constantly adapt to an individual’s 
+behavioral patterns. Furthermore, products are 
+disaggregated substantially into microcoverage 
+elements (for example, phone battery insurance, 
+flight delay insurance, different coverage for a 
+washer and dryer within the home) that consumers 
+can customize to their particular needs, with the 
+ability to instantaneously compare prices from 
+various carriers for their individualized baskets of 
+insurance products. New products emerge to cover 
+the shifting nature of living arrangements and 
+travel. UBI becomes the norm as physical assets 
+are shared across multiple parties, with a pay-by-
+mile or pay-by-ride model for car sharing and pay-
+by-stay insurance for home-sharing services, such 
+as Airbnb.4
+The role of insurance agents has changed 
+dramatically by 2030. The number of agents is 
+reduced substantially as active agents retire and 
+remaining agents rely heavily on technology to 
+increase productivity. The role of agents transitions 
+to process facilitators and product educators. 
+The agent of the future can sell nearly all types of 
+coverage and adds value by helping clients manage 
+their portfolios of coverage across experiences, 
+health, life, mobility, personal property, and 
+residential. Agents use smart personal assistants 
+to optimize their tasks as well as AI-enabled bots 
+to find potential deals for clients. These tools help 
+agents to support a substantially larger client 
+base while making customer interactions (a mix 
+of in-person, virtual, and digital) shorter and more meaningful, given that each interaction will be 
+tailored to the exact current and future needs of 
+each individual client. 
+Underwriting and pricing
+In 2030, underwriting as we know it today ceases 
+to exist for most personal and small-business 
+products across life and property and casualty 
+insurance.5 The process of underwriting is reduced 
+to a few seconds as the majority of underwriting 
+is automated and supported by a combination of 
+machine and deep learning models built within 
+the technology stack. These models are powered 
+by internal data as well as a broad set of external 
+data accessed through application programming 
+interfaces and outside data and analytics providers. 
+Information collected from devices provided by 
+mainline carriers, reinsurers, product manufacturers, 
+and product distributors is aggregated in a variety 
+of data repositories and data streams. These 
+information sources enable insurers to make ex 
+ante decisions regarding underwriting and pricing, 
+enabling proactive outreach with a bindable quote 
+for a product bundle tailored to the buyer’s risk 
+profile and coverage needs.
+Regulators review AI-enabled, machine learning–
+based models, a task that requires a transparent 
+method for determining traceability of a score 
+(similar to the rating factor derivations used today 
+with regression-based coefficients). To verify 
+that data usage is appropriate for marketing and 
+underwriting, regulators assess a combination of 
+model inputs. They also develop test policies for 
+providers when determining rates in online plans 
+to ensure the algorithm results are within approved 
+bounds. Public policy considerations limit access 
+to certain sensitive and predictive data (such as 
+health and genetic information) that would decrease 
+underwriting and pricing flexibility and increase 
+antiselection risk in some segments.
+Price remains central in consumer decision making, 
+but carriers innovate to diminish competition purely 
+5
+Insurance 2030—The impact of AI on the future of insurance
+on price. Sophisticated proprietary platforms 
+connect customers and insurers and offer 
+customers differentiated experiences, features, 
+and value. In some segments, price competition 
+intensifies, and razor-thin margins are the norm, 
+while in other segments, unique insurance offerings 
+enable margin expansion and differentiation. In 
+jurisdictions where change is embraced, the pace 
+of pricing innovation is rapid. Pricing is available in 
+real time based on usage and a dynamic, data-rich 
+assessment of risk, empowering consumers to 
+make decisions about how their actions influence 
+coverage, insurability, and pricing.
+Claims
+Claims processing in 2030 remains a primary 
+function of carriers, but more than half of claims 
+activities have been replaced by automation.6 
+Advanced algorithms handle initial claims routing, 
+increasing efficiency and accuracy. 
+IoT sensors and an array of data-capture 
+technologies, such as drones, largely replace 
+traditional, manual methods of first notice of 
+loss. Claims triage and repair services are often 
+triggered automatically upon loss. In the case of 
+an auto accident, for example, a policyholder takes 
+streaming video of the damage, which is translated 
+into loss descriptions and estimate amounts. 
+Vehicles with autonomous features that sustain 
+minor damage direct themselves to repair shops for 
+service while another car with autonomous features 
+is dispatched in the interim. In the home, IoT devices 
+will be increasingly used to proactively monitor 
+water levels, temperature, and other key risk factors 
+and will proactively alert both tenants and insurers 
+of issues before they arise.
+Automated customer service apps handle most 
+policyholder interactions through voice and text, 
+directly following self-learning scripts that interface 
+with the claims, fraud, medical service, policy, and 
+repair systems. The turnaround time for resolution of many claims is measured in minutes rather 
+than days or weeks. Human claims management 
+focuses on a few areas: complex and unusual claims, 
+contested claims where human interaction and 
+negotiation are empowered by analytics and data-
+driven insights, claims linked to systemic issues 
+and risks created by new technology (for example, 
+hackers infiltrate critical IoT systems), and random 
+manual reviews of claims to ensure sufficient 
+oversight of algorithmic decision making.
+Claims organizations increase their focus on risk 
+monitoring, prevention, and mitigation. IoT and new 
+data sources are used to monitor risk and trigger 
+interventions when factors exceed AI-defined 
+thresholds. Customer interaction with insurance 
+claims organizations focuses on avoiding potential 
+loss. Individuals receive real-time alerts that 
+may be linked with automatic interventions for 
+inspection, maintenance, and repair. For large-scale 
+catastrophe claims, insurers monitor homes and 
+vehicles in real time using integrated IoT, telematics, 
+and mobile phone data, assuming mobile phone 
+service and power haven’t been disrupted in the 
+area. When power goes out, insurers can prefile 
+claims by using data aggregators, which consolidate 
+data from satellites, networked drones, weather 
+services, and policyholder data in real time. This 
+system is pretested by the largest carriers across 
+multiple catastrophe types, so highly accurate loss 
+estimations are reliably filed in a real emergency. 
+Detailed reports are automatically provided to 
+reinsurers for faster reinsurance capital flow.
+6  Andy Fong, Kristen Ganjani, Elixabete Larrea, and José Miguel Novo Sánchez, “Claims 2030: A talent strategy for the future of insurance 
+claims,” December 10, 2020, McKinsey.com.
+6
+Insurance 2030—The impact of AI on the future of insurance
+Exhibit 2 How insurers can prepare for 
+accelerating changes
+The rapid evolution of the industry will be fueled 
+by the extensive adoption and integration of 
+automation, deep learning, and external data 
+ecosystems. While no one can predict exactly what 
+insurance might look like in 2030, carriers can take 
+several steps now to prepare for change.
+1. Get smart on AI-related technologies  
+and trends
+Although the tectonic shifts in the industry will be 
+tech-focused, addressing them is not the domain 
+of the IT team. Instead, board members and 
+customer-experience teams should invest the time 
+and resources to build a deep understanding of 
+these AI-related technologies. Part of this effort 
+will require exploring hypothesis-driven scenarios 
+in order to understand and highlight where and 
+when disruption might occur—and what it means 
+for certain business lines. For example, insurers are 
+unlikely to gain much insights from limited-scale 
+IoT pilot projects in discrete parts of the business. 
+Instead, they must proceed with purpose and an 
+understanding of how their organization might 
+participate in the IoT ecosystem at scale. Pilots 
+and proof-of-concept (POC) projects should be 
+designed to test not just how a technology works 
+but also how successful the carrier might be 
+operating in a particular role within a data- or IoT-
+based ecosystem.
+2. Develop and begin implementation of a 
+coherent strategic plan
+Building on the insights from AI explorations, 
+carriers must decide how to use technology 
+to support their business strategy. The senior 
+leadership team’s long-term strategic plan will 
+require a multiyear transformation that touches 
+operations, talent, and technology. Some carriers 
+are already beginning to take innovative approaches 
+such as starting their own venture-capital arms, 
+acquiring promising insurtech companies, and 
+forging partnerships with leading academic institutions. Insurers should develop a perspective 
+on areas they want to invest in to meet or beat the 
+market and what strategic approach—for example, 
+forming a new entity or building in-house strategic 
+capabilities—is best suited for their organization.
+This plan should address all four dimensions involved 
+in any large-scale, analytics-based initiative—
+everything from data to people to culture (Exhibit 2). 
+The plan should outline a road map of AI-based pilots 
+and POCs and detail which parts of the organization 
+will require investments in skill building or focused 
+change management. Most important, a detailed 
+schedule of milestones and checkpoints is essential 
+to allow the organization to determine, on a regular 
+basis, how the plan should be modified to address 
+any shifts in the evolution of AI technologies and 
+significant changes or disruptions within the industry.
+In addition to being able to understand and 
+implement AI technologies, carriers also need to 
+develop strategic responses to coming macrolevel Article type and Year
+Article Title
+Exhibit X of X
+There are four core elements in 
+de/f_ining a successful AI strategy.
+Models 
+and toolsChange 
+managementOrganization 
+and talent
+CultureData 
+capabilitiesAnalytics strategy
+7
+Insurance 2030—The impact of AI on the future of insurance
+changes. As many lines shift toward a “predict and 
+prevent” methodology, carriers will need to rethink 
+their customer engagement and branding, product 
+design, and core earnings. Auto accidents will be 
+reduced through use of vehicles with self-driving 
+capabilities, in-home flooding will be prevented by 
+IoT devices, buildings will be reprinted after a natural 
+disaster, and lives will be saved and extended 
+by improved healthcare. Likewise, vehicles will 
+still break down, natural disasters will continue 
+to devastate coastal regions, and individuals will 
+require effective medical care and support when a 
+loved one passes. As these changes take root, profit 
+pools will shift, new types and lines of products 
+will emerge, and how consumers interact with their 
+insurers will change substantially. 
+Winning carriers of the future will create and enact 
+strategic plans that position their brand, products, 
+customer interactions, and technology successfully 
+to take advantage of the new economic structure on 
+the horizon.
+All of these efforts can produce a coherent analytics 
+and technology strategy that addresses all aspects 
+of the business, with a keen eye on both value 
+creation and differentiation.
+3. Create and execute a comprehensive  
+data strategy
+Data is fast becoming one of the most—if not the 
+most—valuable asset for any organization. The 
+insurance industry is no different: how carriers 
+identify, quantify, place, and manage risk is all 
+predicated on the volume and quality of data 
+they acquire during a policy’s life cycle. Most AI 
+technologies will perform best when they have a 
+high volume of data from a variety of sources. As 
+such, carriers must develop a well-structured and 
+actionable strategy with regard to both internal 
+and external data. Internal data will need to be 
+organized in ways that enable and support the agile development of new analytics insights and 
+capabilities. With external data, carriers must 
+focus on securing access to data that enriches 
+and complements their internal data sets. The real 
+challenge will be gaining access in a cost-efficient 
+way. As the external data ecosystem continues 
+to expand, it will likely remain highly fragmented, 
+making it quite difficult to identify high-quality data 
+at a reasonable cost. Overall, data strategy will need 
+to include a variety of ways to obtain and secure 
+access to external data, as well as ways to combine 
+this data with internal sources. Carriers should 
+be prepared to have a multifaceted procurement 
+strategy that could include the direct acquisition of 
+data assets and providers, licensing of data sources, 
+use of data APIs, and partnerships with data brokers.
+4. Create the right talent and technology 
+infrastructure
+In augmented chess, average players enabled by AI 
+tend to do better than expert chess players enabled 
+by the same AI. The underlying reason for this 
+counterintuitive outcome depends on whether the 
+individual interacting with AI embraces, trusts, and 
+understands the supporting technology. To ensure 
+that every part of the organization views advanced 
+analytics as a must-have capability, carriers must 
+make measured but sustained investments in 
+people. The insurance organization of the future will 
+require talent with the right mindsets and skills.7 The 
+next generation of successful frontline insurance 
+workers will be in increasingly high demand and 
+must possess a unique mix of being technologically 
+adept, creative, and willing to work at something 
+that will not be a static process but rather a mix of 
+semiautomated and machine-supported tasks that 
+continually evolve. Generating value from the AI use 
+cases of the future will require carriers to integrate 
+skills, technology, and insights from around the 
+organization to deliver unique, holistic customer 
+experiences. Doing so will require a conscious 
+culture shift for most carriers that will rely on buy-in 
+7  Julie Goran, Krish Krishnakanthan, Eleonora Sharef, and Kurt Strovink, “How US insurers can build a winning digital workforce for the future,” 
+September 9, 2020, McKinsey.com.
+8
+Insurance 2030—The impact of AI on the future of insurance
+and leadership from the executive suite. Developing 
+an aggressive strategy to attract, cultivate, and 
+retain a variety of workers with critical skill sets will 
+be essential to keep pace. These roles will include 
+data engineers, data scientists, technologists, cloud 
+computing specialists, and experience designers. To 
+retain knowledge while also ensuring the business 
+has the new skills and capabilities necessary to 
+compete, many organizations will design and 
+implement reskilling programs. As a last component 
+of developing the new workforce, organizations 
+will identify external resources and partners to 
+augment in-house capabilities that will help carriers 
+secure the needed support for business evolution 
+and execution. The IT architecture of the future will 
+also be radically different from today’s. Carriers 
+should start making targeted investments to enable 
+the migration to a more future-forward technology 
+stack that can support a two-speed IT architecture.8Rapid advances in technologies in the next decade 
+will lead to disruptive changes in the insurance 
+industry. The winners in AI-based insurance will 
+be carriers that use new technologies to create 
+innovative products, harness cognitive learning 
+insights from new data sources, streamline 
+processes and lower costs, and exceed customer 
+expectations for individualization and dynamic 
+adaptation. Most important, carriers that adopt a 
+mindset focused on creating opportunities from 
+disruptive technologies—instead of viewing them as 
+a threat to their current business—will thrive in the 
+insurance industry in 2030.
+8  Driek Desmet, Markus Löffler, and Allen Weinberg , “Modernizing IT for a digital era,” September 1,  2016, McKinsey.com .
+Copyright © 20 21 McKinsey & Company. All rights reserved.Ramnath Balasubramanian  and Ari Libarikian  are senior partners in McKinsey’s New York office, and Doug McElhaney  is a 
+partner in the Washington, DC, office.
+The authors would like to acknowledge the contributions of Gijs Biermans, Bayard Gennert, Nick Milinkovich, and Erik Summers.
+9
+Insurance 2030—The impact of AI on the future of insurance
+Contact
+To connect with someone on this topic in your region, please contact: 
+Americas
+Ramnath Balasubramanian
+Senior partner, New York
+Ramnath_Balasubramanian@McKinsey.com
+João Bueno
+Senior partner, São Paulo
+Joao_Bueno@McKinsey.com
+Ari Libarikian 
+Senior partner, New York
+Ari_Libarikian@McKinsey.com
+Doug McElhaney
+Partner, Washington DC
+Doug_McElhaney@McKinsey.com
+Salomon Spak
+Partner, Lima
+Salomon_Spak@McKinsey.comEurope
+Elena Pizzocaro
+Partner, Milan
+Elena_Pizzocaro@McKinsey.com
+Khaled Rifai
+Partner, Berlin
+Khaled_Rifai@McKinsey.com
+Asia
+Suho Kim
+Partner, Seoul
+Suho_Kim@McKinsey.com 
+Further insights
+McKinsey’s Insurance Practice publishes on issues of interest to industry executives. 
+Our recent articles include:
+Rewriting the rules: Digital and AI-powered 
+underwriting in life insurance
+How US insurers can build a winning digital 
+workforce for the future
+Claims 2030: A talent strategy for the future of 
+insurance claims
+Future of insurance: Unleashing growth through 
+new business building
+10
+Insurance 2030—The impact of AI on the future of insurance
