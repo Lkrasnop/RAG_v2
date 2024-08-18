@@ -29,7 +29,7 @@ git:
 	git add . &&\
 	git fetch origin &&\
 	git merge origin/main &&\
-	git commit -m "create dockr file + add to makefile" &&\
+	git commit -m "create gitignore" &&\
 	git push
 # git fetch origin
 # git merge origin/main
