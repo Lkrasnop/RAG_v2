@@ -13,10 +13,10 @@ run: install
 	python3 main.py
 
 format:
-	black app.py
+	black main.py
 
 lint: format
-	pylint --disable=R,C app.py
+	pylint --disable=R,C main.py
 
 remove:
 	rm -rf venv
@@ -29,7 +29,7 @@ git:
 	git add . &&\
 	git fetch origin &&\
 	git merge origin/main &&\
-	git commit -m "add pdf_to_text.py and main.py" &&\
+	git commit -m "add pdf_to_text_test.py and main_test.py" &&\
 	git push
 # git fetch origin
 # git merge origin/main

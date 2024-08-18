@@ -15,3 +15,6 @@ pypdf
 langchain-community
 faiss-gpu
 chromadb==0.5.3
+pytest
+black
+pylint

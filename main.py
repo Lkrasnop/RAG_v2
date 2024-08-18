@@ -1,28 +1,30 @@
 import os
-from langchain.text_splitter import CharacterTextSplitter , RecursiveCharacterTextSplitter
+from langchain.text_splitter import (
+    CharacterTextSplitter,
+    RecursiveCharacterTextSplitter,
+)
 from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import Chroma
-from langchain_openai import OpenAIEmbeddings , ChatOpenAI
-from langchain_core.output_parsers import StrOutputParser
-from langchain.prompts import PromptTemplate
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 from pdf_to_text import pdf_to_txt
 from dotenv import load_dotenv
+
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-__import__('pysqlite3')
+__import__("pysqlite3")
 import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 
 
 # current_dir = os.path.dirname(os.path.abspath(__file__))
 current_dir = os.getcwd()
-files_path = os.path.join(current_dir,"text")
-input_path = os.path.join(current_dir,"pdf")
-file_path = os.path.join(current_dir,"text","test.txt")
-persist_dir = os.path.join(current_dir,"db","chroma_db_meta")
+files_path = os.path.join(current_dir, "text")
+input_path = os.path.join(current_dir, "pdf")
+file_path = os.path.join(current_dir, "text", "test.txt")
+persist_dir = os.path.join(current_dir, "db", "chroma_db_meta")
 
 texts_dir = os.path.join(current_dir, "text")
 db_dir = os.path.join(current_dir, "db")
@@ -36,7 +38,7 @@ pdf_to_txt(input_folder, output_folder)
 
 if not os.path.exists(files_path):
     raise FileNotFoundError(f"file {files_path} is not exists , please check the path")
-loader = TextLoader(file_path)  
+loader = TextLoader(file_path)
 documents = loader.load()
 text_split = RecursiveCharacterTextSplitter(
     chunk_size=500,
@@ -44,10 +46,10 @@ text_split = RecursiveCharacterTextSplitter(
     length_function=len,
     is_separator_regex=False,
 )
-docs = text_split.split_documents(documents) 
+docs = text_split.split_documents(documents)
 
 
-#create chroma db
+# create chroma db
 # Check if the Chroma vector store already exists
 if not os.path.exists(persistent_directory):
     print("Persistent directory does not exist. Initializing vector store...")
@@ -89,19 +91,17 @@ if not os.path.exists(persistent_directory):
 
     # Create the vector store and persist it
     print("\n--- Creating and persisting vector store ---")
-    db = Chroma.from_documents(
-        docs, embeddings, persist_directory=persistent_directory)
+    db = Chroma.from_documents(docs, embeddings, persist_directory=persistent_directory)
     print("\n--- Finished creating and persisting vector store ---")
 
 else:
     print("Vector store already exists. No need to initialize.")
-    
+
     # Define the embedding model
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
 # Load the existing vector store with the embedding function
-db = Chroma(persist_directory=persistent_directory,
-            embedding_function=embeddings)
+db = Chroma(persist_directory=persistent_directory, embedding_function=embeddings)
 
 # Define the user's question
 query = "How will AI impact the future of insurance by 2030?"
@@ -132,7 +132,9 @@ model = ChatOpenAI(model="gpt-4o")
 
 # Define the messages for the model
 messages = [
-    SystemMessage(content="You are a helpful assistant and professional in ml engineer with 10 years of experience."),
+    SystemMessage(
+        content="You are a helpful assistant and professional in ml engineer with 10 years of experience."
+    ),
     HumanMessage(content=combined_input),
 ]
 
@@ -144,8 +146,7 @@ result = model.invoke(messages)
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
 # Load the existing vector store with the embedding function
-db = Chroma(persist_directory=persistent_directory,
-            embedding_function=embeddings)
+db = Chroma(persist_directory=persistent_directory, embedding_function=embeddings)
 
 # Define the user's question
 query = "How will AI impact the future of insurance by 2030?"
@@ -176,7 +177,9 @@ model = ChatOpenAI(model="gpt-4o")
 
 # Define the messages for the model
 messages = [
-    SystemMessage(content="You are a helpful assistant and professional in ml engineer with 10 years of experience."),
+    SystemMessage(
+        content="You are a helpful assistant and professional in ml engineer with 10 years of experience."
+    ),
     HumanMessage(content=combined_input),
 ]
 
