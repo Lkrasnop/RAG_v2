@@ -18,3 +18,4 @@ chromadb==0.5.3
 pytest
 black
 pylint
+pysqlite3 
