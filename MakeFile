@@ -29,7 +29,7 @@ git:
 	git add . &&\
 	git fetch origin &&\
 	git merge origin/main &&\
-	git commit -m "update gitignore" &&\
+	git commit -m "add pdf_to_text.py and main.py" &&\
 	git push
 # git fetch origin
 # git merge origin/main
