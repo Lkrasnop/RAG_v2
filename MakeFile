@@ -29,7 +29,7 @@ git:
 	git add . &&\
 	git fetch origin &&\
 	git merge origin/main &&\
-	git commit -m "add pdf_to_text_test.py and main_test.py" &&\
+	git commit -m "adjust main.py - make functionally structure" &&\
 	git push
 # git fetch origin
 # git merge origin/main

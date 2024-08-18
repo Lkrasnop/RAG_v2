@@ -97,7 +97,7 @@ if not os.path.exists(persistent_directory):
 else:
     print("Vector store already exists. No need to initialize.")
 
-    # Define the embedding model
+# Define the embedding model
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
 # Load the existing vector store with the embedding function
@@ -140,6 +140,103 @@ messages = [
 
 # Invoke the model with the combined input
 result = model.invoke(messages)
+
+def initialize_chroma_db():
+    if not os.path.exists(persistent_directory):
+        print("Persistent directory does not exist. Initializing vector store...")
+
+        if not os.path.exists(files_path):
+            raise FileNotFoundError(
+                f"The directory {files_path} does not exist. Please check the path."
+            )
+
+        book_files = [f for f in os.listdir(files_path) if f.endswith(".txt")]
+
+        documents = []
+        for book_file in book_files:
+            file_path = os.path.join(files_path, book_file)
+            loader = TextLoader(file_path)
+            book_docs = loader.load()
+            for doc in book_docs:
+                doc.metadata = {"source": book_file}
+                documents.append(doc)
+
+        text_splitter = CharacterTextSplitter(chunk_size=200, chunk_overlap=10)
+        docs = text_splitter.split_documents(documents)
+
+        print("\n--- Document Chunks Information ---")
+        print(f"Number of document chunks: {len(docs)}")
+
+        print("\n--- Creating embeddings ---")
+        embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+        print("\n--- Finished creating embeddings ---")
+
+        print("\n--- Creating and persisting vector store ---")
+        db = Chroma.from_documents(docs, embeddings, persist_directory=persistent_directory)
+        print("\n--- Finished creating and persisting vector store ---")
+    else:
+        print("Vector store already exists. No need to initialize.")
+        embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+        db = Chroma(persist_directory=persistent_directory, embedding_function=embeddings)
+    
+    return db
+
+
+def process_query(query):
+    db = initialize_chroma_db()
+    
+    retriever = db.as_retriever(
+        search_type="similarity_score_threshold",
+        search_kwargs={"k": 3, "score_threshold": 0.5},
+    )
+    relevant_docs = retriever.invoke(query)
+
+    combined_input = (
+        f"Here are some documents that might help answer the question: {query}\n\n"
+        f"Relevant Documents:\n{'\n\n'.join([doc.page_content for doc in relevant_docs])}\n\n"
+        "Please provide an answer based only on the provided documents. If the answer is not found in the documents, respond with 'I'm not sure'."
+    )
+
+    model = ChatOpenAI(model="gpt-4o")
+    messages = [
+        SystemMessage(content="You are a helpful assistant and professional in ml engineer with 10 years of experience."),
+        HumanMessage(content=combined_input),
+    ]
+
+    result = model.invoke(messages)
+    return result.content
+
+
+
+def main():
+    pdf_to_txt(input_folder, output_folder)
+    
+    if not os.path.exists(files_path):
+        raise FileNotFoundError(f"file {files_path} does not exist, please check the path")
+    
+    loader = TextLoader(file_path)
+    documents = loader.load()
+    text_split = RecursiveCharacterTextSplitter(
+        chunk_size=500,
+        chunk_overlap=50,
+        length_function=len,
+        is_separator_regex=False,
+    )
+    docs = text_split.split_documents(documents)
+
+    db = initialize_chroma_db()
+    
+    query = "How will AI impact the future of insurance by 2030?"
+    response = process_query(query)
+    
+    print("\n--- Generated Response ---")
+    print("Content only:")
+    print(response)
+
+if __name__ == "__main__":
+    main()
+
+
 
 # Display the full result and content only
 # Define the embedding model
