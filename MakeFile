@@ -29,7 +29,7 @@ git:
 	git add . &&\
 	git fetch origin &&\
 	git merge origin/main &&\
-	git commit -m "adjust main.py - make functionally structure" &&\
+	git commit -m "adjust main_test.py - make functionally structure" &&\
 	git push
 # git fetch origin
 # git merge origin/main
