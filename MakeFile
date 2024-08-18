@@ -29,7 +29,7 @@ git:
 	git add . &&\
 	git fetch origin &&\
 	git merge origin/main &&\
-	git commit -m "create gitignore" &&\
+	git commit -m "update gitignore" &&\
 	git push
 # git fetch origin
 # git merge origin/main
